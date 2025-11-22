@@ -1,13 +1,23 @@
 import "./App.css";
-
 import { Navbar } from "./components/Navbar";
 import PeachStyleShowcase from "./components/PeachComponent";
 import PeachImageShowcase from "./components/PeachImages";
 import { StunningDashboardStandalone } from "./components/Stunning";
 import MegaCard from "./components/SuperCard";
 import TextRevealClean from "./components/TextReveal";
+import Lenis from "lenis";
 
 export default function App() {
+
+  // Initialize Lenis
+  const lenis = new Lenis({
+    autoRaf: true,
+  });
+
+  // Listen for the scroll event and log the event data
+  lenis.on('scroll', (e) => {
+    console.log(e);
+  });
   return (
     <div className="w-full  min-h-screen bg-[#0b0b0f] text-white overflow-x-hidden">
       <Navbar />
