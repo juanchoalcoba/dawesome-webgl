@@ -59,15 +59,12 @@ export default function TextRevealClean() {
                         PRECISIÓN MILIMÉTRICA
                     </span>
                     <br />
-                    <motion.span
+                    <span
                         className="text-transparent bg-clip-text bg-linear-to-r from-white via-gray-300 to-gray-400
                font-black uppercase drop-shadow-[0_0_12px_rgba(255,255,255,0.5)]
-               inline-block"
-                        animate={{ scale: [1, 1.05, 1], opacity: [0.9, 1, 0.9] }}
-                        transition={{ duration: 1.5, repeat: Infinity }}
-                    >
+               inline-block">
                         Elegancia que se siente
-                    </motion.span>
+                    </span>
                     <br />
                 </div>
 

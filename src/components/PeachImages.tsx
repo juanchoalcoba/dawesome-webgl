@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 export default function PeachImageShowcase() {
     const images = [
-        "/img1.jpg",
-        "/img2.jpg",
-        "/img3.jpg",
-        "/img4.jpg",
+        "/img1.webp",
+        "/img2.webp",
+        "/img3.webp",
+        "/img4.webp",
     ];
 
     return (
