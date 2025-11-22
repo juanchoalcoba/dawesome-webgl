@@ -205,7 +205,7 @@ export function StunningDashboardStandalone() {
                                     </svg>
 
                                     {/* Legend */}
-                                    <div className="flex gap-6 mt-4">
+                                    <div className="flex gap-6">
                                         <div className="flex items-center gap-2">
                                             <div className="w-3 h-3 rounded-full bg-neutral-400" />
                                             <span className="text-sm text-slate-400">API Requests</span>
@@ -219,7 +219,7 @@ export function StunningDashboardStandalone() {
                             </div>
 
                             {/* Server Resources */}
-                            <div className="grid grid-cols-2 gap-4">
+                            <div className="grid grid-cols-2 gap-4 mt-8">
                                 {serverStats.map((stat, i) => (
                                     <div key={i} className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-xl p-4">
                                         <div className="flex items-center justify-between mb-2">
