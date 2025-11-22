@@ -48,6 +48,7 @@ export default function App() {
       {/* ==== FOOTER ESPACIO ==== */}
       <div className="h-32" />
 
+      {/* ==== continuara==== */}
     </div>
   );
 }
