@@ -1,8 +1,9 @@
 import "./App.css";
-import HorizontalScrollShowcase from "./components/HorizintalScroll";
+
 import { Navbar } from "./components/Navbar";
 import PeachStyleShowcase from "./components/PeachComponent";
 import PeachImageShowcase from "./components/PeachImages";
+import { StunningDashboardStandalone } from "./components/Stunning";
 import MegaCard from "./components/SuperCard";
 import TextRevealClean from "./components/TextReveal";
 
@@ -35,6 +36,12 @@ export default function App() {
       <section className="w-full py-40 flex justify-center border-t border-white/10">
         <div className="container max-w-7xl px-6">
           <MegaCard />
+        </div>
+      </section>
+
+      <section className="w-full py-40 flex justify-center border-t border-white/10">
+        <div className="container max-w-7xl px-6">
+          <StunningDashboardStandalone />
         </div>
       </section>
 
